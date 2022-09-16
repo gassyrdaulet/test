@@ -25,6 +25,6 @@ app.get('/data1', async (req, res) => {
     res.send(JSON.stringify(data1))
 })
 
-app.listen(8080, () => {
+app.listen(3000, () => {
     console.log('Server started.')
 })
