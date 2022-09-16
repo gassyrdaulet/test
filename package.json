@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This app was prepared for testing Droplets.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "dev"
   },
