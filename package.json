@@ -1,0 +1,14 @@
+{
+  "name": "projecttest",
+  "version": "1.0.0",
+  "description": "This app was prepared for testing Droplets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "author": "Gas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
