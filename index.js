@@ -9,7 +9,8 @@ const conn = mysql.createPool((
     {
         "host": "localhost",
         "user": "root",
-        "database": "test"
+        "database": "test",
+        "password":""
     }
 ))
 
