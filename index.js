@@ -14,16 +14,7 @@ const conn = mysql.createPool((
     }
 ))
 
-const data1 = {
-    data1: {
-        title: 'Javascript.',
-        description: 'This language.'
-    },
-    data2: {
-        title: 'Javascript.',
-        description: 'This language.'
-    }
-}
+const data1 = ['Javascript.','This language.', 'Javascript.','This language.']
 
 app.get('/data', async (req, res) => {
     const data = (await conn.query('SELECT * FROM test'))[0]
