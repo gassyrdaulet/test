@@ -23,6 +23,7 @@ app.get('/data', async (req, res) => {
 })
 
 app.get('/data1', async (req, res) => {
+    console.log('request called!!!')
     res.send(JSON.stringify(data1))
 })
 
