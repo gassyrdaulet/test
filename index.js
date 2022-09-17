@@ -17,6 +17,7 @@ const conn = mysql.createPool((
 const data1 = ['Javascript.','This language.', 'Javascript.','This language.']
 
 app.get('/data', async (req, res) => {
+    console.log('request called!!!')
     const data = (await conn.query('SELECT * FROM test'))[0]
     res.send(data)
 })
